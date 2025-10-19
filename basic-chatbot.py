@@ -28,7 +28,6 @@ def get_bot_response(message):
     else:
         return "I'm not sure how to respond to that."
 
-
 def start_chatbot():
     """
     Starts the chatbot interaction loop.
@@ -43,7 +42,7 @@ def start_chatbot():
         if user_input.lower() == "bye":
             break
 
-
 # Run chatbot
 if __name__ == "__main__":
     start_chatbot()
+
